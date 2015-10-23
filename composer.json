@@ -1,0 +1,23 @@
+{
+    "name": "nurmanhabib/quotatool",
+    "description": "Sebagai wrapper dari https://github.com/ekenberg/quotatool untuk Laravel",
+    "keywords": ["quotatool", "wrapper", "quota"],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.*|5.*",
+        "symfony/process": "2.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Habib Nurrahman",
+            "email": "nurmanhabib@yahoo.co.id"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nurmanhabib\\QuotaTool\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
