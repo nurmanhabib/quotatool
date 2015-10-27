@@ -95,3 +95,13 @@ Untuk menambahkan limit inode dengan 10000 soft dan 10240 hard
     
 #### Grace Period
 Belum tersedia :)
+
+#### Eksekusi Quota
+Untuk menerapkan quota ke user atau group
+
+    QuotaTool::run();
+
+#### Dump Info Quota User
+Untuk melihat info quota user atau group
+
+    QuotaTool::run();

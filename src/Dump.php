@@ -19,6 +19,8 @@ class Dump
         $this->mountpoint   = $mountpoint;
         $this->command      = 'sudo quotatool';
         $this->response     = '';
+
+        $this->run();
     }
 
     public function raw()

@@ -73,6 +73,13 @@ class QuotaTool
         return $this;
     }
 
+    public function dumping()
+    {
+        $dumping = new Dump($this->ugid, $this->filesystem);
+
+        return $dumping->toArray();
+    }
+
     public function getLimit()
     {
         return $this->limit;
